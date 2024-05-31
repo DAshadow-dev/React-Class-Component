@@ -109,6 +109,7 @@ class Calculator extends React.Component {
         return (
             <Container className="d-flex justify-content-center align-items-center vh-100">
                 <div className="calculator p-3 border rounded shadow-sm bg-white">
+                <h1 className="text-center my-4">Calculator</h1>
                     <div className="display p-2 mb-3 border rounded bg-light text-center">
                         {error||input||result||'0'}
                     </div>

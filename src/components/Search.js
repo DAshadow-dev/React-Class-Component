@@ -34,6 +34,7 @@ class Search extends React.Component {
         return (
             <Container className="my-5">
                 <Row className="justify-content-center">
+                <h1 className="text-center my-4">Search</h1>
                     <Col md="6">
                         <InputGroup>
                             <Form.Control
