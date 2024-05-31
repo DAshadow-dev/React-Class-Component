@@ -4,12 +4,13 @@ import './index.css';
 import App from './App';
 import ToDoList from './components/ToDoList';
 import Calculator from './components/Calculator';
+import Search from './components/Search';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Calculator />
+    <Search />
   </React.StrictMode>
 );
 
